@@ -1,0 +1,14 @@
+{
+    "ALERT": {
+        "header": "Alert",
+        "message": "Are you sure?",
+        "btnOk": "Ok",
+        "btnCancel": "Cancel"
+    },
+    "HOME": {
+        "title": "Home"
+    },
+    "DASHBOARD": {
+        "greeting": "Welcome : {{name}} "
+    }
+}

@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'fidens/dashboard',
+    redirectTo: 'home',
     pathMatch: 'full'
   },
   {
@@ -15,6 +15,14 @@ const routes: Routes = [
     /** set url location page*/     
     path: 'fidens/dashboard',
     loadChildren: () => import('./pages/dashboard/dashboard.module').then( m => m.DashboardPageModule)
+  },
+  {
+    path: 'home',
+    loadChildren: () => import('./pages/home/home.module').then( m => m.HomePageModule)
+  },
+  {
+    path: 'language-popover',
+    loadChildren: () => import('./components/language-popover/language-popover.module').then( m => m.LanguagePopoverPageModule)
   }
 ];
 
