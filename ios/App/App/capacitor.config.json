@@ -1,0 +1,6 @@
+{
+	"appId": "com.example.app",
+	"appName": "FidensApp",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
